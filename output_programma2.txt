@@ -1,0 +1,355 @@
+
+
+--PRIMO PUNTO--
+
+
+Estraggo ed ordino con frequenza decrescente, indicando anche la relativa frequenza, le informazioni richieste al primo punto per i due file di testo:
+
+Estrazione delle informazioni per il file Moby_Dick.txt :
+
+POS: NN  Freq: 1955
+POS: IN  Freq: 1581
+POS: DT  Freq: 1390
+POS: JJ  Freq: 1021
+POS: ,  Freq: 1003
+POS: PRP  Freq: 908
+POS: RB  Freq: 738
+POS: VBD  Freq: 649
+POS: CC  Freq: 558
+POS: .  Freq: 504
+
+Bigramma: ('DT', 'NN')  Freq: 673
+Bigramma: ('IN', 'DT')  Freq: 610
+Bigramma: ('NN', 'IN')  Freq: 490
+Bigramma: ('JJ', 'NN')  Freq: 463
+Bigramma: ('NN', ',')  Freq: 409
+Bigramma: ('DT', 'JJ')  Freq: 398
+Bigramma: (',', 'CC')  Freq: 264
+Bigramma: ('PRP', 'VBD')  Freq: 258
+Bigramma: ('NN', '.')  Freq: 226
+Bigramma: ('IN', 'PRP')  Freq: 192
+
+Trigramma: ('IN', 'DT', 'NN')  Freq: 318
+Trigramma: ('DT', 'JJ', 'NN')  Freq: 255
+Trigramma: ('NN', 'IN', 'DT')  Freq: 203
+Trigramma: ('DT', 'NN', 'IN')  Freq: 190
+Trigramma: ('IN', 'DT', 'JJ')  Freq: 169
+Trigramma: ('DT', 'NN', ',')  Freq: 148
+Trigramma: ('JJ', 'NN', 'IN')  Freq: 134
+Trigramma: ('NN', ',', 'CC')  Freq: 120
+Trigramma: ('JJ', 'NN', ',')  Freq: 84
+Trigramma: ('NN', 'IN', 'NN')  Freq: 73
+
+Aggettivo: little  Freq: 31
+Aggettivo: old  Freq: 27
+Aggettivo: good  Freq: 22
+Aggettivo: ’  Freq: 21
+Aggettivo: other  Freq: 19
+Aggettivo: last  Freq: 19
+Aggettivo: great  Freq: 17
+Aggettivo: long  Freq: 14
+Aggettivo: such  Freq: 14
+Aggettivo: same  Freq: 13
+Aggettivo: first  Freq: 12
+Aggettivo: own  Freq: 12
+Aggettivo: much  Freq: 12
+Aggettivo: more  Freq: 11
+Aggettivo: s  Freq: 10
+Aggettivo: ”  Freq: 8
+Aggettivo: high  Freq: 7
+Aggettivo: most  Freq: 7
+Aggettivo: sure  Freq: 7
+Aggettivo: full  Freq: 7
+
+Avverbio: not  Freq: 65
+Avverbio: now  Freq: 36
+Avverbio: so  Freq: 33
+Avverbio: then  Freq: 29
+Avverbio: here  Freq: 26
+Avverbio: very  Freq: 22
+Avverbio: there  Freq: 21
+Avverbio: when  Freq: 21
+Avverbio: never  Freq: 18
+Avverbio: as  Freq: 15
+Avverbio: just  Freq: 15
+Avverbio: how  Freq: 13
+Avverbio: most  Freq: 13
+Avverbio: too  Freq: 13
+Avverbio: almost  Freq: 12
+Avverbio: where  Freq: 12
+Avverbio: still  Freq: 12
+Avverbio: ever  Freq: 12
+Avverbio: yet  Freq: 12
+Avverbio: only  Freq: 11
+
+Estrazione delle informazioni per il file Blog_post.txt :
+
+POS: NN  Freq: 1027
+POS: IN  Freq: 767
+POS: DT  Freq: 535
+POS: JJ  Freq: 516
+POS: NNS  Freq: 413
+POS: ,  Freq: 329
+POS: .  Freq: 286
+POS: CD  Freq: 282
+POS: VB  Freq: 267
+POS: RB  Freq: 265
+
+Bigramma: ('NN', 'IN')  Freq: 220
+Bigramma: ('DT', 'NN')  Freq: 217
+Bigramma: ('JJ', 'NN')  Freq: 203
+Bigramma: ('IN', 'DT')  Freq: 190
+Bigramma: ('IN', 'NN')  Freq: 176
+Bigramma: ('NN', '.')  Freq: 138
+Bigramma: ('NN', ',')  Freq: 137
+Bigramma: ('DT', 'JJ')  Freq: 131
+Bigramma: ('NN', 'NN')  Freq: 125
+Bigramma: ('TO', 'VB')  Freq: 120
+
+Trigramma: ('IN', 'DT', 'NN')  Freq: 89
+Trigramma: ('DT', 'JJ', 'NN')  Freq: 82
+Trigramma: ('DT', 'NN', 'IN')  Freq: 64
+Trigramma: ('NN', 'IN', 'DT')  Freq: 56
+Trigramma: ('CD', 'IN', 'NN')  Freq: 55
+Trigramma: ('NN', 'IN', 'NN')  Freq: 52
+Trigramma: ('JJ', 'NN', 'IN')  Freq: 51
+Trigramma: ('IN', 'DT', 'JJ')  Freq: 49
+Trigramma: ('NN', ',', 'CC')  Freq: 44
+Trigramma: ('NN', '.', 'DT')  Freq: 37
+
+Aggettivo: global  Freq: 16
+Aggettivo: large  Freq: 14
+Aggettivo: other  Freq: 13
+Aggettivo: such  Freq: 13
+Aggettivo: average  Freq: 12
+Aggettivo: net-positive  Freq: 11
+Aggettivo: more  Freq: 11
+Aggettivo: poor  Freq: 11
+Aggettivo: ’  Freq: 11
+Aggettivo: ecological  Freq: 11
+Aggettivo: good  Freq: 10
+Aggettivo: own  Freq: 8
+Aggettivo: many  Freq: 8
+Aggettivo: indirect  Freq: 8
+Aggettivo: hard  Freq: 7
+Aggettivo: secondary  Freq: 7
+Aggettivo: little  Freq: 6
+Aggettivo: easy  Freq: 6
+Aggettivo: Australian  Freq: 6
+Aggettivo: new  Freq: 5
+
+Avverbio: not  Freq: 20
+Avverbio: However  Freq: 12
+Avverbio: more  Freq: 11
+Avverbio: also  Freq: 11
+Avverbio: only  Freq: 11
+Avverbio: just  Freq: 10
+Avverbio: so  Freq: 8
+Avverbio: very  Freq: 7
+Avverbio: still  Freq: 6
+Avverbio: even  Freq: 6
+Avverbio: where  Freq: 6
+Avverbio: up  Freq: 5
+Avverbio: when  Freq: 4
+Avverbio: there  Freq: 4
+Avverbio: already  Freq: 4
+Avverbio: how  Freq: 4
+Avverbio: extremely  Freq: 4
+Avverbio: quite  Freq: 4
+Avverbio: directly  Freq: 4
+Avverbio: perhaps  Freq: 3
+
+
+--SECONDO PUNTO --
+
+
+Estraggo ed ordino i primi 20 bigrammi, composti da Aggettivo e Sostantivo e dove ogni token ha frequenza maggiore di 3, in base alle informazioni richieste al secondo punto per i due file di testo:
+
+Estrazione delle informazioni per il file Moby_Dick.txt :
+
+Bigramma: ’ t  Freq: 11
+Bigramma: ” “  Freq: 4
+Bigramma: good deal  Freq: 3
+Bigramma: high time  Freq: 2
+Bigramma: most part  Freq: 2
+Bigramma: same time  Freq: 2
+Bigramma: long time  Freq: 2
+Bigramma: old craft  Freq: 2
+Bigramma: strange town  Freq: 2
+Bigramma: ’ s  Freq: 2
+Bigramma: next morning  Freq: 2
+Bigramma: good look  Freq: 2
+Bigramma: many heads  Freq: 2
+Bigramma: good thing  Freq: 2
+Bigramma: few hours  Freq: 1
+Bigramma: high land  Freq: 1
+Bigramma: first voyage  Freq: 1
+Bigramma: same image  Freq: 1
+Bigramma: second hand  Freq: 1
+Bigramma: same way  Freq: 1
+
+Bigramma: strange town  Prob: 0.3333333333333333
+Bigramma: next morning  Prob: 0.3333333333333333
+Bigramma: many heads  Prob: 0.3333333333333333
+Bigramma: high time  Prob: 0.2857142857142857
+Bigramma: wide world  Prob: 0.25
+Bigramma: white teeth  Prob: 0.25
+Bigramma: tall harpoon  Prob: 0.25
+Bigramma: white man  Prob: 0.25
+Bigramma: similar manner  Prob: 0.25
+Bigramma: few hours  Prob: 0.2
+Bigramma: second hand  Prob: 0.2
+Bigramma: large door  Prob: 0.2
+Bigramma: large bag  Prob: 0.2
+Bigramma: black squares  Prob: 0.2
+Bigramma: second floor  Prob: 0.2
+Bigramma: wild cannibal  Prob: 0.2
+Bigramma: few days  Prob: 0.2
+Bigramma: small room  Prob: 0.16666666666666666
+Bigramma: next moment  Prob: 0.16666666666666666
+Bigramma: strange house  Prob: 0.16666666666666666
+
+Bigramma: ’ t  LMI: 58.49582009210638
+Bigramma: good deal  LMI: 26.66560713500951
+Bigramma: strange town  LMI: 18.741374813614435
+Bigramma: next morning  LMI: 18.356084657729642
+Bigramma: many heads  LMI: 17.18615965628733
+Bigramma: good look  LMI: 15.43722142045505
+Bigramma: high time  LMI: 15.415444788169577
+Bigramma: old craft  LMI: 15.372378465070293
+Bigramma: good thing  LMI: 14.992436577782154
+Bigramma: most part  LMI: 14.238297279622508
+Bigramma: same time  LMI: 13.629275196002602
+Bigramma: long time  LMI: 13.030154632284786
+Bigramma: ” “  LMI: 12.769750162855894
+Bigramma: white teeth  LMI: 9.763004829585979
+Bigramma: similar manner  LMI: 9.441076734698616
+Bigramma: tall harpoon  LMI: 9.178042328864821
+Bigramma: few hours  LMI: 9.119148639811254
+Bigramma: few days  LMI: 9.119148639811254
+Bigramma: cold air  LMI: 8.955649907528375
+Bigramma: large bag  LMI: 8.85611423397746
+
+Estrazione delle informazioni per il file Blog_post.txt :
+
+Bigramma: ’ t  Freq: 9
+Bigramma: secondary emissions  Freq: 7
+Bigramma: ecological footprint  Freq: 6
+Bigramma: global hectares  Freq: 4
+Bigramma: green energy  Freq: 4
+Bigramma: indirect water  Freq: 4
+Bigramma: net-positive life  Freq: 3
+Bigramma: global poverty  Freq: 3
+Bigramma: other species  Freq: 3
+Bigramma: poor countries  Freq: 2
+Bigramma: other people  Freq: 2
+Bigramma: new life  Freq: 2
+Bigramma: yearly income  Freq: 2
+Bigramma: direct water  Freq: 2
+Bigramma: natural infrastructure  Freq: 2
+Bigramma: yearly expenses  Freq: 2
+Bigramma: global income  Freq: 1
+Bigramma: poor people  Freq: 1
+Bigramma: global issues  Freq: 1
+Bigramma: other initiatives  Freq: 1
+
+Bigramma: green energy  Prob: 1.0
+Bigramma: secondary emissions  Prob: 1.0
+Bigramma: ecological footprint  Prob: 0.5454545454545454
+Bigramma: indirect water  Prob: 0.5
+Bigramma: new life  Prob: 0.4
+Bigramma: natural infrastructure  Prob: 0.4
+Bigramma: direct water  Prob: 0.3333333333333333
+Bigramma: yearly income  Prob: 0.2857142857142857
+Bigramma: yearly expenses  Prob: 0.2857142857142857
+Bigramma: net-positive life  Prob: 0.2727272727272727
+Bigramma: same way  Prob: 0.25
+Bigramma: global hectares  Prob: 0.25
+Bigramma: effective initiatives  Prob: 0.25
+Bigramma: same water  Prob: 0.25
+Bigramma: other species  Prob: 0.23076923076923078
+Bigramma: natural ecosystems  Prob: 0.2
+Bigramma: new sites  Prob: 0.2
+Bigramma: new initiative  Prob: 0.2
+Bigramma: global poverty  Prob: 0.1875
+Bigramma: poor countries  Prob: 0.18181818181818182
+
+Bigramma: secondary emissions  LMI: 65.70556442854554
+Bigramma: ’ t  LMI: 55.3233894244429
+Bigramma: ecological footprint  LMI: 48.1596795539493
+Bigramma: green energy  LMI: 42.83374919586119
+Bigramma: global hectares  LMI: 31.604329507630773
+Bigramma: indirect water  LMI: 25.403541177388853
+Bigramma: global poverty  LMI: 23.914415114397272
+Bigramma: net-positive life  LMI: 22.536120258485383
+Bigramma: other species  LMI: 22.26910524030915
+Bigramma: yearly expenses  LMI: 17.158308564040663
+Bigramma: natural infrastructure  LMI: 16.433168405271246
+Bigramma: new life  LMI: 16.129162218381143
+Bigramma: poor countries  LMI: 15.854155170881276
+Bigramma: yearly income  LMI: 15.802164753815386
+Bigramma: other people  LMI: 12.401285317533201
+Bigramma: direct water  LMI: 11.531845587252114
+Bigramma: same way  LMI: 8.708437298965297
+Bigramma: natural ecosystems  LMI: 8.064581109190572
+Bigramma: new initiative  LMI: 7.801546703356778
+Bigramma: own research  LMI: 7.708437298965297
+
+
+--TERZO PUNTO--
+
+
+Estraggo le frasi dei due file di testo con almeno 6 tokens e con meno di 25 tokens e in cui ogni token occorre almeno due volte nel testo, ricavo poi le informazioni richieste:
+
+Moby_Dick.txt :
+
+La frase con la distribuzione media di frequenza maggiore è ' Yes, these eyes are
+windows, and this body of mine is the house. ' con distribuzione media pari a 247.125 mentre quella con distribuzione più bassa è ' You could pretty plainly tell how long each one had been ashore. ' con valore pari a 46.84615384615385 . La frase con probabilità maggiore è ' There is magic in
+it. ' con probabilità pari a 3.5966048050640196e-05
+
+Blog_post.txt :
+
+La frase con la distribuzione media di frequenza maggiore è ' I have electricity, water, and waste management. ' con distribuzione media pari a 119.8 mentre quella con distribuzione più bassa è ' But what exactly did it achieve with such spending? ' con valore pari a 13.6 . La frase con probabilità maggiore è ' The poor die up to 30 years earlier than the rich. ' con probabilità pari a 4.2688523190540217e-05
+
+
+--QUARTO PUNTO--
+
+
+Estraggo i 15 nomi propri di persona più frequenti, ordinati per frequenza, dei due file di testo:
+
+Moby_Dick.txt :
+
+Nome proprio:  Queequeg  Freq: 10
+Nome proprio:  Landlord  Freq: 5
+Nome proprio:  Nantucket  Freq: 3
+Nome proprio:  Euroclydon  Freq: 3
+Nome proprio:  Supper  Freq: 3
+Nome proprio:  Bulkington  Freq: 3
+Nome proprio:  Sal  Freq: 3
+Nome proprio:  Cape Horn  Freq: 2
+Nome proprio:  Lazarus  Freq: 2
+Nome proprio:  Jonah  Freq: 2
+Nome proprio:  Ledyard  Freq: 2
+Nome proprio:  Herman Melville  Freq: 1
+Nome proprio:  Coenties Slip  Freq: 1
+Nome proprio:  Strange  Freq: 1
+Nome proprio:  Deep  Freq: 1
+
+Blog_post.txt :
+
+Nome proprio:  Air  Freq: 4
+Nome proprio:  Carbon  Freq: 3
+Nome proprio:  Simply  Freq: 2
+Nome proprio:  Ethical  Freq: 2
+Nome proprio:  Albert Schweitzer  Freq: 2
+Nome proprio:  Ramsar  Freq: 2
+Nome proprio:  Shaw Industries  Freq: 2
+Nome proprio:  Cradle  Freq: 2
+Nome proprio:  Earth  Freq: 1
+Nome proprio:  Peter Singer  Freq: 1
+Nome proprio:  Example  Freq: 1
+Nome proprio:  Car  Freq: 1
+Nome proprio:  Honda Jazz  Freq: 1
+Nome proprio:  Feel  Freq: 1
+Nome proprio:  Train  Freq: 1
+

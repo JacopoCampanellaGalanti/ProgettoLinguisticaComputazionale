@@ -1,0 +1,211 @@
+
+
+--PRIMO PUNTO--
+
+
+Confronto il numero di frasi e il numero di tokens dei due file di testo:
+
+Il file Moby_Dick.txt ha 474 frasi e 13902 tokens mentre il file Blog_post.txt ha 286 frasi e 6693 tokens
+
+
+--SECONDO PUNTO--
+
+
+Confronto la lunghezza media delle frasi in termini di tokens e dei tokens in termini di caratteri nei due file di testo, escludendo i tokens che rappresentano punteggiatura:
+
+Il file Moby_Dick.txt ha una lunghezza media delle frasi pari a 29.329113924050635 e una lunghezza media dei tokens pari a 4.209760827407886 mentre il file Blog_post.txt ha una lunghezza media delle frasi pari a 23.402097902097903 e una lunghezza media dei tokens pari a 4.744556113902847
+
+
+--TERZO PUNTO--
+
+
+Confronto il numero di hapax sui primi 1000 tokens dei due file di testo:
+
+Il file Moby_Dick.txt ha 210 hapax mentre il file Blog_post.txt ha 132 hapax
+
+
+--QUARTO PUNTO--
+
+
+Confronto la grandezza del vocabolario e la ricchezza lessicale dei due file di testo al crescere del testo di 500 in 500 tokens:
+
+Il file Moby_Dick.txt ha grandezza del vocabolario e ricchezza lessicale ogni 500 tokens pari a:
+
+0 - 500 tokens:
+Dimensioni del vocabolario: 288
+TTR: 0.576
+
+500 - 1000 tokens:
+Dimensioni del vocabolario: 477
+TTR: 0.477
+
+1000 - 1500 tokens:
+Dimensioni del vocabolario: 624
+TTR: 0.416
+
+1500 - 2000 tokens:
+Dimensioni del vocabolario: 765
+TTR: 0.3825
+
+2000 - 2500 tokens:
+Dimensioni del vocabolario: 922
+TTR: 0.3688
+
+2500 - 3000 tokens:
+Dimensioni del vocabolario: 1062
+TTR: 0.354
+
+3000 - 3500 tokens:
+Dimensioni del vocabolario: 1202
+TTR: 0.3434285714285714
+
+3500 - 4000 tokens:
+Dimensioni del vocabolario: 1338
+TTR: 0.3345
+
+4000 - 4500 tokens:
+Dimensioni del vocabolario: 1457
+TTR: 0.3237777777777778
+
+4500 - 5000 tokens:
+Dimensioni del vocabolario: 1624
+TTR: 0.3248
+
+5000 - 5500 tokens:
+Dimensioni del vocabolario: 1753
+TTR: 0.31872727272727275
+
+5500 - 6000 tokens:
+Dimensioni del vocabolario: 1863
+TTR: 0.3105
+
+6000 - 6500 tokens:
+Dimensioni del vocabolario: 1966
+TTR: 0.30246153846153845
+
+6500 - 7000 tokens:
+Dimensioni del vocabolario: 2059
+TTR: 0.29414285714285715
+
+7000 - 7500 tokens:
+Dimensioni del vocabolario: 2133
+TTR: 0.2844
+
+7500 - 8000 tokens:
+Dimensioni del vocabolario: 2209
+TTR: 0.276125
+
+8000 - 8500 tokens:
+Dimensioni del vocabolario: 2290
+TTR: 0.26941176470588235
+
+8500 - 9000 tokens:
+Dimensioni del vocabolario: 2360
+TTR: 0.26222222222222225
+
+9000 - 9500 tokens:
+Dimensioni del vocabolario: 2430
+TTR: 0.2557894736842105
+
+9500 - 10000 tokens:
+Dimensioni del vocabolario: 2510
+TTR: 0.251
+
+10000 - 10500 tokens:
+Dimensioni del vocabolario: 2605
+TTR: 0.2480952380952381
+
+10500 - 11000 tokens:
+Dimensioni del vocabolario: 2670
+TTR: 0.24272727272727274
+
+11000 - 11500 tokens:
+Dimensioni del vocabolario: 2742
+TTR: 0.23843478260869566
+
+11500 - 12000 tokens:
+Dimensioni del vocabolario: 2826
+TTR: 0.2355
+
+12000 - 12500 tokens:
+Dimensioni del vocabolario: 2900
+TTR: 0.232
+
+12500 - 13000 tokens:
+Dimensioni del vocabolario: 2975
+TTR: 0.22884615384615384
+
+13000 - 13500 tokens:
+Dimensioni del vocabolario: 3053
+TTR: 0.22614814814814815
+
+13500 - 14000 tokens:
+Dimensioni del vocabolario: 3120
+TTR: 0.22442813983599483
+
+Il file Blog_post.txt ha grandezza del vocabolario e ricchezza lessicale ogni 500 tokens pari a:
+
+0 - 500 tokens:
+Dimensioni del vocabolario: 255
+TTR: 0.51
+
+500 - 1000 tokens:
+Dimensioni del vocabolario: 417
+TTR: 0.417
+
+1000 - 1500 tokens:
+Dimensioni del vocabolario: 572
+TTR: 0.38133333333333336
+
+1500 - 2000 tokens:
+Dimensioni del vocabolario: 706
+TTR: 0.353
+
+2000 - 2500 tokens:
+Dimensioni del vocabolario: 842
+TTR: 0.3368
+
+2500 - 3000 tokens:
+Dimensioni del vocabolario: 962
+TTR: 0.32066666666666666
+
+3000 - 3500 tokens:
+Dimensioni del vocabolario: 1086
+TTR: 0.3102857142857143
+
+3500 - 4000 tokens:
+Dimensioni del vocabolario: 1204
+TTR: 0.301
+
+4000 - 4500 tokens:
+Dimensioni del vocabolario: 1324
+TTR: 0.2942222222222222
+
+4500 - 5000 tokens:
+Dimensioni del vocabolario: 1422
+TTR: 0.2844
+
+5000 - 5500 tokens:
+Dimensioni del vocabolario: 1519
+TTR: 0.2761818181818182
+
+5500 - 6000 tokens:
+Dimensioni del vocabolario: 1600
+TTR: 0.26666666666666666
+
+6000 - 6500 tokens:
+Dimensioni del vocabolario: 1670
+TTR: 0.2569230769230769
+
+6500 - 7000 tokens:
+Dimensioni del vocabolario: 1696
+TTR: 0.2533990736590468
+
+
+--QUINTO PUNTO--
+
+
+Confronto le distribuzioni percentuali dell'insieme delle parole piene e di quelle funzionali dei due file di testo:
+
+Il file Moby_Dick.txt ha una distribuzione percentuale delle parole piene del 52.43849805783456 % e di quelle funzionali del 38.275068335491305 % mentre il file Blog_post.txt ha una distribuzione percentuale delle parole piene del 53.65307037203104 % e di quelle funzionali del 29.43373673987748 %
+
