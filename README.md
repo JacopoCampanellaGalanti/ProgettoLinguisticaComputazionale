@@ -10,7 +10,7 @@ Professore: Alessandro Lenci
 
 Candidato: Jacopo Campanella Galanti
 
-Votazione ottenuta: 30 e lode
+Votazione ottenuta: 30/30 e lode
 
 Ho realizzato i due file scritti in Python seguendo le istruzioni del file PDF
 
