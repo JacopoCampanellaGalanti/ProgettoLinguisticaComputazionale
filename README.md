@@ -1,6 +1,6 @@
 # ProgettoLinguisticaComputazionale
 
-Analisi linguistiche effettuate su due file di testo con due programmi scritti in Python
+Analisi linguistiche effettuate su due file di testo con due programmi scritti in Python attraverso l'utilizzo di strumenti di Natural Language Processing
 
 Anno di realizzazione: 2022
 
