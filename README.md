@@ -2,7 +2,7 @@
 
 Analisi linguistiche effettuate su due file di testo con due programmi scritti in Python attraverso l'utilizzo di strumenti di Natural Language Processing
 
-Anno di realizzazione: 2022
+Mese e anno di realizzazione: marzo 2022
 
 Professore: Felice Dell'Orletta
 
