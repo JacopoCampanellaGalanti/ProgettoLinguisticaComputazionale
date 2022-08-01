@@ -1,4 +1,4 @@
-# ProgettoLinguisticaComputazionale
+# Progetto Linguistica Computazionale
 
 Analisi linguistiche effettuate su due file di testo con due programmi scritti in Python attraverso l'utilizzo di strumenti di Natural Language Processing
 
