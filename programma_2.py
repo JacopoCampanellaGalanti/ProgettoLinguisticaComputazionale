@@ -65,7 +65,6 @@ def EstrazioneInformazioniTerzoPunto(frasi, tokens, bigrammi, trigrammi):
             somma_freq += freq_token
         distr_media = somma_freq/len(tokensFraseAggiornata)
         somma_freq = 0.0
-        
         #Ricavo quella massima con relativa frase
         if distr_media > distr_mediaMAX:
             distr_mediaMAX = distr_media
